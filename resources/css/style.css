@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
+  top: 0px;
+  z-index: 1;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+.main {
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+}
+#mission {
+  display: flex;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  align-items: center;
+  text-align: center;
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
+  height: 102px;
+}
+
+.content h2, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+#featured {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#featured h2, h4 {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.item span {
+  display: block;
+
+}
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  padding-top: 70px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+#locations h2 {
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.location h3 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.downtown {
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+  }
+
+.bayside {
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+}
+
+.oakdale {
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+}
+
+.location span {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
